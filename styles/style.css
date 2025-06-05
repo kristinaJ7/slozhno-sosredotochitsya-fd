@@ -19,7 +19,7 @@ body{
   align-items: center;
   justify-items: center;
   min-height: 668px;
-  /*height: 100vh;*/
+  height: 100vh;
 }
 /*уголки*/
 .decorated-zone::before,
@@ -191,7 +191,7 @@ border: 1px solid var(--menu-border-color);
  align-items: center;
  justify-content: center;
  min-height: 667px;
- /*height: 100vh;*/
+ height: 100vh;
 }
 .footer_decorated-zone::before,
 .footer_decorated-zone::after {
