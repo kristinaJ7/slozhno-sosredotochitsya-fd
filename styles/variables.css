@@ -4,15 +4,18 @@
 */
 :root{
   /*цвета*/
-  --text-color: #DB00FF;
+  --text__title-color: #DB00FF;
   --accent-color:#FF0070;
   --article__title-color: #FF0070;
   --article__subtitle: #000028;
   --article__text: #F1B2CE;
   --article__title-color: #FF0070;
   --accent-color-decorated: #FF0070;
+  --accent-color-menu:#FF0070;
+  --decorated-zone-color: #FF0070;
+  --menu-border-color: #FF0070;
    /*шрифты*/
-  --font-family: IBM Plex Mono, sans-serif;
+  --font-family: 'IBM Plex Mono', monospace;
    /*жирность шрифта*/
   --main-font-weight:700;
   --font-weight:400;
@@ -25,5 +28,3 @@
   /*фоновое изображение*/
   --bg-images:url('../images/cover-image-dark.png');
 }
- 
-
