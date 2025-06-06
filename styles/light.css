@@ -3,7 +3,6 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
 :root.theme-light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -22,11 +21,10 @@
   --accent-color-menu:#353430;
   --decorated-zone-color:#353430;
   --menu-border-color: #353430 ;
+
+  --article__link-color: #353430;
 }
 .theme-light .page {
   background-color:var(--bg-color, #fff1f7) ; 
   /* Вам также нужно будет написать ряд подобных селекторов */
-}
-.theme-light .decorative-rec {
-  display: none;
 }
