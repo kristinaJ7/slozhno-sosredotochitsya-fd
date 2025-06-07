@@ -3,6 +3,7 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+@media (prefers-color-scheme: dark) {
 :root.theme-dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -10,7 +11,7 @@
   */
    --bg-color: #000028;
    /*цвета*/
-    --text__title-color: #DB00FF;
+  --text__title-color: #DB00FF;
   --accent-color:#FF0070;
   --article__title-color: #FF0070;
   --article__subtitle: #000028;
@@ -22,12 +23,7 @@
   --menu-border-color: #FF0070;
   --article__link-color:#F1B2CE;
 }
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
- background-color:var(--bg-color) ;
 }
-
-
 
 
 
