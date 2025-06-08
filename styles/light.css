@@ -24,18 +24,13 @@
   --menu-border-color: #353430 ;
   --article__link-color: #353430;
   --border-color-active:#353430;
-
-  
-  
 }
 }
-
 @media (prefers-color-scheme: light) {
  .theme-light .decorative-rec {
   display: none;
   }
 }
-
 :root.theme-light {
   --bg-images:url('../images/cover-image-light.png');
   --bg-color: #fff1f7;
