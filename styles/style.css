@@ -108,7 +108,7 @@ body{
 .header__theme-menu-button:focus {
   border-bottom: 1px solid #FF0070;
 }
-.header__theme-menu-button_active:active{
+.header__theme-menu-button_active{
   border: 1px solid var(--border-color-active);
 }
 /*заголовок шапки*/
