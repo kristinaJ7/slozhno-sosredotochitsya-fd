@@ -284,7 +284,7 @@ border-bottom:1px solid var(--article__link-color,#F1B2CE);
   gap: 20px;
   margin-block-start: 80px;
 }
-.article-type-tips h3.article__section-title {
+.article__section-title-type-tips {
   margin-block-start: 0;
 }
 /*контейнер с изображениями*/
